@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables & Secrets
+.env
+!.env.example
+
+# Testing & Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Type Checking & IDEs
+.mypy_cache/
+.pyright_cache/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
